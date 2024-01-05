@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(20, 238, 125);
+    height: 350px;
+    width: 300px;
+    margin: 20px;
+}
